@@ -1,0 +1,113 @@
+/* Home.css */
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    padding: 1rem; /* Padding to prevent content from touching the edges */
+    box-sizing: border-box; /* Makes sure padding doesn't affect width/height */
+    overflow: hidden; /* Ensure that the bouncing elements don't cause scrollbars */
+    position: relative; 
+   
+      /* ... existing styles ... */
+     
+      background: radial-gradient(circle at center, #002B5C 0%, #000000 70%);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain; /* Adjust as needed */
+      animation: fadeIn 2s ease-out forwards; /* Fade in animation */
+    
+    
+
+  }
+  
+  .home-container h1 {
+    margin: 0;
+    margin-bottom: 2rem; /* Space below the title */
+    color: #fff; /* White color for the title */
+  }
+  
+  .options {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+  }
+  
+  /* Button styles specific to the Home component */
+  .home-container button {
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    border-color: #646cff;
+    color: #fff; /* White text color for better contrast */
+    background-color: #1a1a1a; /* Dark background for buttons */
+  }
+  
+  /* Button hover and focus styles specific to the Home component */
+  .home-container button:hover,
+  .home-container button:focus {
+    background-color: #535bf2;
+    border-color: #747bff;
+  }
+  
+  /* Responsive design adjustments for the Home component */
+  @media (max-width: 768px) {
+    .home-container h1 {
+      font-size: 2em; /* Smaller font size for the title on smaller screens */
+    }
+  
+    .home-container button {
+      padding: 0.5em 1em;
+      font-size: 0.9em; /* Smaller font size for buttons on smaller screens */
+    }
+  }
+  .logo-home {
+    position: fixed; /* or 'absolute' if within a positioned parent */
+    top: 0;
+    left: 0;
+    z-index: 100; /* Make sure it's above other content */
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+    width: 120px; /* Adjust the width as needed */
+    height: auto; /* This will maintain the aspect ratio */
+    margin: 10px;
+  }
+
+
+
+
+  
+
+  
+  .title-entrance {
+    animation: slamIn 0.5s ease forwards;
+    transform: translateY(-100px); /* Start above the screen */
+    opacity: 0; /* Start invisible */
+  }
+  
+  @keyframes slamIn {
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .logo-image {
+   height: 150px;
+  }
+ 
+  
+
+
+  
+  
