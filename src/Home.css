@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh; /* Full viewport height */
-    width: 100vw; /* Full viewport width */
+    width: 100%; /* Full viewport width */
     padding: 1rem; /* Padding to prevent content from touching the edges */
     box-sizing: border-box; /* Makes sure padding doesn't affect width/height */
     overflow: hidden; /* Ensure that the bouncing elements don't cause scrollbars */
@@ -29,6 +29,9 @@
     
     
 
+  }
+  body {
+    font-size: 1em;
   }
   
   .home-container h1 {
@@ -70,13 +73,7 @@
       font-size: 0.9em; /* Smaller font size for buttons on smaller screens */
     }
   }
-  .navBar{
-    background-color: #000000;
-    display: flex;
-    
 
-
-  }
 
 
 

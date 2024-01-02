@@ -85,7 +85,7 @@ function Spread() {
 
   return (
 
-    <div id="spreadContent">
+    <div>
       < Header />
       <h2>Spread Odds</h2>
       <div className="events-grid">

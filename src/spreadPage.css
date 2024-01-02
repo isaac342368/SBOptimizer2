@@ -1,8 +1,4 @@
-#spreadContent {
-    padding: 20px;
-    max-width: 1200px;
-    margin: auto;
-  }
+
   
   .event-spread {
     background-color: #f9f9f9;
@@ -17,6 +13,9 @@
     font-size: 1.2em;
     font-weight: bold;
     color: #333;
+  }
+  body {
+    font-size: 1em;
   }
   
   .matchup {

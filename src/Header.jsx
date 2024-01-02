@@ -21,16 +21,16 @@ function Header() {
       <div className="navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <a className="nav-link" href="/spread">Spread</a>
+            <a style={{fontSize: 12}}className="nav-link" href="/spread">Spread</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/moneyline">Money Line</a>
+            <a style={{fontSize: 12}}className="nav-link" href="/moneyline">Money Line</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/playerprops">Player Props</a>
+            <a style={{fontSize: 12}}className="nav-link" href="/playerprops">Player Props</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">Contact</a>
+            <a style={{fontSize: 12}}className="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
