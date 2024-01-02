@@ -70,17 +70,12 @@
       font-size: 0.9em; /* Smaller font size for buttons on smaller screens */
     }
   }
-  .logo-home {
-    position: fixed; /* or 'absolute' if within a positioned parent */
-    top: 0;
-    left: 0;
-    z-index: 100; /* Make sure it's above other content */
-    max-width: 150px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-    cursor: pointer; /* Change cursor to indicate it's clickable */
-    width: 120px; /* Adjust the width as needed */
-    height: auto; /* This will maintain the aspect ratio */
-    margin: 10px;
+  .navBar{
+    background-color: #000000;
+    display: flex;
+    
+
+
   }
 
 
@@ -103,11 +98,24 @@
   }
   
   .logo-image {
-   height: 150px;
+
+    margin-right: 965px;
+
+    width: 50px;
+    height: 50x;
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+ 
+ 
   }
  
   
-
+/* Custom CSS to change background color */
+.bg-dark-custom {
+  background-color: black;
+}
 
   
   
+h2 {
+   text-align: center;
+}
