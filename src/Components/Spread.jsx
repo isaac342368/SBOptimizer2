@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../SpreadPage.css'; 
 import '../MoneyLinePage.css';
+import Header from '../Header';
 
 function Spread() {
   const [spreadData, setSpreadData] = useState([]);
@@ -83,7 +84,9 @@ function Spread() {
   }
 
   return (
+
     <div id="spreadContent">
+      < Header />
       <h2>Spread Odds</h2>
       <div className="events-grid">
         {spreadData.map((event, index) => (
