@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Header from '../Header';
 
 function Spread() {
   const [spreadData, setSpreadData] = useState([]);
@@ -18,7 +19,9 @@ function Spread() {
   }, []);
 
   return (
+
     <div id="spreadContent">
+      < Header />
       <h2>Spread Odds</h2>
       {/* Render your spread data here */}
     </div>

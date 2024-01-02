@@ -64,7 +64,7 @@ function MoneyLine() {
 
    <Header/>
     <div className="money-line-container">
-      <h2 style={{color: 'black'}}>Money Line Odds</h2>
+      <h2  style={{color: 'white'}}>Money Line Odds</h2>
       <div className="events-grid">
         {moneyLineData.map((event, index) => (
           <div key={index} className="event-card">
