@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {useState, useEffect} from 'react';
 import "./Home.css";
 import logoSrc from './assets/newSBLogo.png'; // Import your logo image
 
 function Header() {
+
+
   return (
     <header>
       {/* Link to home when the logo is clicked */}
@@ -15,5 +18,8 @@ function Header() {
     </header>
   );
 }
+
+
+
 
 export default Header;

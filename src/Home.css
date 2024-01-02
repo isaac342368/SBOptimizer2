@@ -25,7 +25,7 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain; /* Adjust as needed */
-      animation: fadeIn 2s ease-out forwards; /* Fade in animation */
+      animation: fadeIn 1.5s ease-out forwards; /* Fade in animation */
     
     
 
@@ -81,6 +81,7 @@
     width: 120px; /* Adjust the width as needed */
     height: auto; /* This will maintain the aspect ratio */
     margin: 10px;
+    animation-delay: 1s;
   }
 
 
