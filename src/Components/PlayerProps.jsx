@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from '../Header';
 
+import Footer from './footer';
+
 function PlayerProps() {
   const [eventsData, setEventsData] = useState([]);
 
@@ -16,10 +18,13 @@ function PlayerProps() {
 
   return (
     <div>
+    <div>
         < Header />
       <button onClick={fetchUpcomingEvents}>Fetch Upcoming Events</button>
       {/* Render your events and player props data here */}
     </div>
+    <Footer/>
+   </div> 
   );
 }
 

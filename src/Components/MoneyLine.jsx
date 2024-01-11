@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import '../MoneyLinePage.css';
 import Header from "../Header";
-
+import Footer from './footer';
 function MoneyLine() {
   const [moneyLineData, setMoneyLineData] = useState([]);
 
@@ -82,6 +82,7 @@ function MoneyLine() {
         {/* ... key items ... */}
       </div>
     </div>
+    <Footer/>
     </div>
   );
 }
