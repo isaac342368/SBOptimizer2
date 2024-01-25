@@ -55,7 +55,7 @@ function Header() {
                 Player Props
               </NavLink>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <NavLink
                 style={{ fontSize: 12 }}
                 className="nav-link"
@@ -63,8 +63,8 @@ function Header() {
                 to="/contactus"
               >
                 Contact
-              </NavLink>
-            </li>
+              </NavLink> */}
+            {/* </li> */}
           </ul>
         </div>
       </nav>

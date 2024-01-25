@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Footer from './footer';
 import Header from "../Header";
 import { gapi } from 'gapi-script';
 import "../ContactUs.css";
@@ -135,6 +136,7 @@ function ContactUs() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

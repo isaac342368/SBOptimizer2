@@ -328,8 +328,10 @@ function PlayerProps() {
 
   return (
     <div>
+   
 
       <Header />
+      <div>
 
   
       <div className="events-grid">
@@ -399,7 +401,7 @@ function PlayerProps() {
 
 
     </div>
-    <Footer/>
+ 
    </div> 
   );
 }

@@ -87,7 +87,7 @@ function Spread() {
 
   return (
 
-
+<div>
     <div>
 
       < Header />
@@ -120,9 +120,13 @@ function Spread() {
           </div>
         ))}
       </div>
+      <Footer/>
     </div>
-    <Footer/>
+
+    
     </div>
+    
+
   );
   
 }
