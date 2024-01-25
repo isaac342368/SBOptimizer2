@@ -5,11 +5,12 @@ import Header from '../Header';
 
 function Spread() {
   const [spreadData, setSpreadData] = useState([]);
+  const API_KEY = "62ecb41efc6195b8f07ba217cf7a5b47"
 
   useEffect(() => {
     const fetchSpreadData = async () => {
       try {
-        const response = await fetch(`https://api.the-odds-api.com/v4/sports/upcoming/odds/?apiKey=62ecb41efc6195b8f07ba217cf7a5b47&regions=us&markets=spreads&oddsFormat=american`);
+        const response = await fetch(`https://api.the-odds-api.com/v4/sports/upcoming/odds/?apiKey=1fb771f0913d81a83b47fa81c0099aba&regions=us&markets=spreads&oddsFormat=american`);
         const data = await response.json();
 
         const processedData = data.map(event => {
