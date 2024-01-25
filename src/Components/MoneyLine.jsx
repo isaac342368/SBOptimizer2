@@ -7,7 +7,7 @@ function MoneyLine() {
 
   useEffect(() => {
     const fetchMoneyLineData = async () => {
-      const API_URL = "https://api.the-odds-api.com/v4/sports/upcoming/odds/?apiKey=62ecb41efc6195b8f07ba217cf7a5b47&regions=us&markets=h2h";
+      const API_URL = "https://api.the-odds-api.com/v4/sports/upcoming/odds/?apiKey=1fb771f0913d81a83b47fa81c0099aba&regions=us&markets=h2h";
       try {
         const response = await fetch(API_URL);
         const data = await response.json();
