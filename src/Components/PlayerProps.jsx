@@ -177,6 +177,8 @@ import '../PlayerProps.css';
 const API_KEY = '5997ce1f6f512de3504e3053f2f36d92';
 const API_BASE_URL = 'https://api.the-odds-api.com/v4/sports';
 
+import Footer from './footer';
+
 function PlayerProps() {
   const [selectedSport, setSelectedSport] = useState(null);
   const [sports, setSports] = useState([]);
@@ -326,6 +328,7 @@ function PlayerProps() {
 
   return (
     <div>
+
       <Header />
 
   
@@ -394,7 +397,10 @@ function PlayerProps() {
   </div>
 )}
 
+
     </div>
+    <Footer/>
+   </div> 
   );
 }
 

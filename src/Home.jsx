@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import "./Home.css";
 import Header from './Header';
-
+import Footer from './Components/footer';
 
 function Home() {
   const navigate = useNavigate();
@@ -21,8 +21,14 @@ function Home() {
         <button onClick={() => navigate('/moneyline')}>Money Line</button>
         <button onClick={() => navigate('/spread')}>Spread</button>
         <button onClick={() => navigate('/playerprops')}>Player Props</button>
+      
+
+        
       </div>
+
     </div>
+    < Footer/>
+
     </div>
   );
 }

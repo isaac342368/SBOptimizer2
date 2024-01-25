@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import '../SpreadPage.css'; 
 import '../MoneyLinePage.css';
 import Header from '../Header';
+import Footer from './footer';
 
 function Spread() {
   const [spreadData, setSpreadData] = useState([]);
@@ -86,7 +87,9 @@ function Spread() {
 
   return (
 
+
     <div>
+
       < Header />
       <h2>Spread Odds</h2>
       <div className="events-grid">
@@ -117,6 +120,8 @@ function Spread() {
           </div>
         ))}
       </div>
+    </div>
+    <Footer/>
     </div>
   );
   
